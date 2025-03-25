@@ -1,0 +1,22 @@
+{
+  "name": "newsmania",
+  "version": "1.0.0",
+  "description": "A modern newspaper aggregator application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch-news": "node src/automation/fetchNews.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "puppeteer": "^22.8.2"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}
